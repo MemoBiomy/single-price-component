@@ -94,6 +94,7 @@ body {
     border-radius: 6px;
     font-weight: 700;
     box-shadow: 3px 4px 7px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
 }
 
 .card-3 {
@@ -108,4 +109,16 @@ body {
 .card-3 p {
     max-width: 190px;
     line-height: 1.5;
+}
+
+@media (max-width: 375px) {
+    body {
+        height: auto;
+        padding: 70px 20px;
+    }
+    .container {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
 }
