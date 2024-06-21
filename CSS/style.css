@@ -2,7 +2,7 @@
 --cyan: #2ab2af; /*#2bb3b1*/
 --yellow: hsl(71, 73%, 54%);
 --gray: hsl(204, 43%, 93%);
---blue: hsl(218, 22%, 67%);
+--blue: rgb(152, 166, 189);
 }
 
 * {
@@ -29,6 +29,7 @@ body {
     max-width: 700px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    box-shadow: 3px 5px 11px 1px rgb(152, 166, 189, .5);
 }
 
 .container > div {
@@ -92,6 +93,7 @@ body {
     font-size: 18px;
     border-radius: 6px;
     font-weight: 700;
+    box-shadow: 3px 4px 7px 0 rgb(0 0 0 / 20%);
 }
 
 .card-3 {
